@@ -18,7 +18,9 @@ This Debloter can remove unwanted Software and programs from your Windows Device
 
 5> Then you did. Now you can remove unwanted programs and apps by using this debloter.
 
-6> Then you are good to go.
+6> Then you have to reboot your PC to apply changes.
+
+7> Then you are good to go.
 
 
 #################################
