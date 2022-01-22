@@ -42,25 +42,18 @@ $Form.ClientSize              = '1050, 1000'
 $Form.FormBorderStyle         = 'FixedSingle'
 
 
-
 $Panel1                          = New-Object system.Windows.Forms.Panel
-$Panel1.height                   = 939
-$Panel1.width                    = 219
-$Panel1.location                 = New-Object System.Drawing.Point(6,54)
+$Panel1.height                   = 938
+$Panel1.width                    = 211
+$Panel1.location                 = New-Object System.Drawing.Point(240,54)
 
-
-$Panel2                          = New-Object system.Windows.Forms.Panel
-$Panel2.height                   = 938
-$Panel2.width                    = 211
-$Panel2.location                 = New-Object System.Drawing.Point(240,54)
-
-$Label3                          = New-Object system.Windows.Forms.Label
-$Label3.text                     = "System Tweaks"
-$Label3.AutoSize                 = $true
-$Label3.width                    = 230
-$Label3.height                   = 25
-$Label3.location                 = New-Object System.Drawing.Point(229,11)
-$Label3.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
+$Label1                          = New-Object system.Windows.Forms.Label
+$Label1.text                     = "System Tweaks"
+$Label1.AutoSize                 = $true
+$Label1.width                    = 230
+$Label1.height                   = 25
+$Label1.location                 = New-Object System.Drawing.Point(229,11)
+$Label1.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
 
 $essentialtweaks                 = New-Object system.Windows.Forms.Button
 $essentialtweaks.text            = "Essential Tweaks"
@@ -111,18 +104,18 @@ $onedrive.height                 = 30
 $onedrive.location               = New-Object System.Drawing.Point(3,521)
 $onedrive.Font                   = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
-$Label15                         = New-Object system.Windows.Forms.Label
-$Label15.text                    = "Windows Update"
-$Label15.AutoSize                = $true
-$Label15.width                   = 25
-$Label15.height                  = 10
-$Label15.location                = New-Object System.Drawing.Point(732,11)
-$Label15.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
+$Label7                         = New-Object system.Windows.Forms.Label
+$Label7.text                    = "Windows Update"
+$Label7.AutoSize                = $true
+$Label7.width                   = 25
+$Label7.height                  = 10
+$Label7.location                = New-Object System.Drawing.Point(732,11)
+$Label7.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
 
-$Panel4                          = New-Object system.Windows.Forms.Panel
-$Panel4.height                   = 179
-$Panel4.width                    = 340
-$Panel4.location                 = New-Object System.Drawing.Point(699,55)
+$Panel3                          = New-Object system.Windows.Forms.Panel
+$Panel3.height                   = 179
+$Panel3.width                    = 340
+$Panel3.location                 = New-Object System.Drawing.Point(699,55)
 
 $defaultwindowsupdate            = New-Object system.Windows.Forms.Button
 $defaultwindowsupdate.text       = "Default Settings"
@@ -138,50 +131,50 @@ $securitywindowsupdate.height    = 30
 $securitywindowsupdate.location  = New-Object System.Drawing.Point(24,142)
 $securitywindowsupdate.Font      = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
 
-$Label16                         = New-Object system.Windows.Forms.Label
-$Label16.text                    = "I recommend doing security updates only."
-$Label16.AutoSize                = $true
-$Label16.width                   = 25
-$Label16.height                  = 10
-$Label16.location                = New-Object System.Drawing.Point(62,65)
-$Label16.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
+$Label8                         = New-Object system.Windows.Forms.Label
+$Label8.text                    = "I recommend doing security updates only."
+$Label8.AutoSize                = $true
+$Label8.width                   = 25
+$Label8.height                  = 10
+$Label8.location                = New-Object System.Drawing.Point(62,65)
+$Label8.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$Label17                         = New-Object system.Windows.Forms.Label
-$Label17.text                    = "- Delays Features updates up to 3 years"
-$Label17.AutoSize                = $true
-$Label17.width                   = 25
-$Label17.height                  = 10
-$Label17.location                = New-Object System.Drawing.Point(63,84)
-$Label17.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
+$Label9                         = New-Object system.Windows.Forms.Label
+$Label9.text                    = "- Delays Features updates up to 3 years"
+$Label9.AutoSize                = $true
+$Label9.width                   = 25
+$Label9.height                  = 10
+$Label9.location                = New-Object System.Drawing.Point(63,84)
+$Label9.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$Label18                         = New-Object system.Windows.Forms.Label
-$Label18.text                    = "- Delays Security updates 4 days"
-$Label18.AutoSize                = $true
-$Label18.width                   = 25
-$Label18.height                  = 10
-$Label18.location                = New-Object System.Drawing.Point(63,105)
-$Label18.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
+$Label10                         = New-Object system.Windows.Forms.Label
+$Label10.text                    = "- Delays Security updates 4 days"
+$Label10.AutoSize                = $true
+$Label10.width                   = 25
+$Label10.height                  = 10
+$Label10.location                = New-Object System.Drawing.Point(63,105)
+$Label10.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$Label19                         = New-Object system.Windows.Forms.Label
-$Label19.text                    = "- Sets Maximum Active Time"
-$Label19.AutoSize                = $true
-$Label19.width                   = 25
-$Label19.height                  = 10
-$Label19.location                = New-Object System.Drawing.Point(63,126)
-$Label19.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
+$Label11                         = New-Object system.Windows.Forms.Label
+$Label11.text                    = "- Sets Maximum Active Time"
+$Label11.AutoSize                = $true
+$Label11.width                   = 25
+$Label11.height                  = 10
+$Label11.location                = New-Object System.Drawing.Point(63,126)
+$Label11.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$Label4                          = New-Object system.Windows.Forms.Label
-$Label4.text                     = "Troubleshoot"
-$Label4.AutoSize                 = $true
-$Label4.width                    = 230
-$Label4.height                   = 25
-$Label4.location                 = New-Object System.Drawing.Point(482,12)
-$Label4.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
+$Label2                          = New-Object system.Windows.Forms.Label
+$Label2.text                     = "Troubleshoot"
+$Label2.AutoSize                 = $true
+$Label2.width                    = 230
+$Label2.height                   = 25
+$Label2.location                 = New-Object System.Drawing.Point(482,12)
+$Label2.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
 
-$Panel3                          = New-Object system.Windows.Forms.Panel
-$Panel3.height                   = 234
-$Panel3.width                    = 220
-$Panel3.location                 = New-Object System.Drawing.Point(464,54)
+$Panel2                          = New-Object system.Windows.Forms.Panel
+$Panel2.height                   = 234
+$Panel2.width                    = 220
+$Panel2.location                 = New-Object System.Drawing.Point(464,54)
 
 $essentialundo                   = New-Object system.Windows.Forms.Button
 $essentialundo.text              = "Undo Essential Tweaks"
@@ -261,21 +254,21 @@ $WarningLabel.height             = 10
 $WarningLabel.location           = New-Object System.Drawing.Point(12,856)
 $WarningLabel.Font               = New-Object System.Drawing.Font('Microsoft Sans Serif',8)
 
-$Label5                          = New-Object system.Windows.Forms.Label
-$Label5.text                     = "Games, Apps, Sysprep, etc."
-$Label5.AutoSize                 = $true
-$Label5.width                    = 25
-$Label5.height                   = 10
-$Label5.location                 = New-Object System.Drawing.Point(44,877)
-$Label5.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',8)
+$Label3                          = New-Object system.Windows.Forms.Label
+$Label3.text                     = "Games, Apps, Sysprep, etc."
+$Label3.AutoSize                 = $true
+$Label3.width                    = 25
+$Label3.height                   = 10
+$Label3.location                 = New-Object System.Drawing.Point(44,877)
+$Label3.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',8)
 
-$Label6                          = New-Object system.Windows.Forms.Label
-$Label6.text                     = "Misc. Fixes"
-$Label6.AutoSize                 = $true
-$Label6.width                    = 25
-$Label6.height                   = 10
-$Label6.location                 = New-Object System.Drawing.Point(78,7)
-$Label6.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',10,[System.Drawing.FontStyle]([System.Drawing.FontStyle]::Bold))
+$Label4                          = New-Object system.Windows.Forms.Label
+$Label4.text                     = "Misc. Fixes"
+$Label4.AutoSize                 = $true
+$Label4.width                    = 25
+$Label4.height                   = 10
+$Label4.location                 = New-Object System.Drawing.Point(78,7)
+$Label4.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',10,[System.Drawing.FontStyle]([System.Drawing.FontStyle]::Bold))
 
 
 $appearancefx                    = New-Object system.Windows.Forms.Button
@@ -306,13 +299,13 @@ $ResultText.height               = 130
 $ResultText.location             = New-Object System.Drawing.Point(576,491)
 $ResultText.Font                 = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$Label10                         = New-Object system.Windows.Forms.Label
-$Label10.text                    = "Current Status:"
-$Label10.AutoSize                = $true
-$Label10.width                   = 25
-$Label10.height                  = 10
-$Label10.location                = New-Object System.Drawing.Point(657,430)
-$Label10.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
+$Label5                         = New-Object system.Windows.Forms.Label
+$Label5.text                    = "Current Status:"
+$Label5.AutoSize                = $true
+$Label5.width                   = 25
+$Label5.height                  = 10
+$Label5.location                = New-Object System.Drawing.Point(657,430)
+$Label5.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
 
 $EHibernation                    = New-Object system.Windows.Forms.Button
 $EHibernation.text               = "Enable Hibernation"
@@ -328,13 +321,13 @@ $dualboottime.height             = 30
 $dualboottime.location           = New-Object System.Drawing.Point(3,754)
 $dualboottime.Font               = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
-$Label11                         = New-Object system.Windows.Forms.Label
-$Label11.text                    = "Videos to Fix Windows"
-$Label11.AutoSize                = $true
-$Label11.width                   = 25
-$Label11.height                  = 10
-$Label11.location                = New-Object System.Drawing.Point(687,659)
-$Label11.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
+$Label6                         = New-Object system.Windows.Forms.Label
+$Label6.text                    = "Videos to Fix Windows"
+$Label6.AutoSize                = $true
+$Label6.width                   = 25
+$Label6.height                  = 10
+$Label6.location                = New-Object System.Drawing.Point(687,659)
+$Label6.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $urlfixwinstartup                = New-Object system.Windows.Forms.Button
 $urlfixwinstartup.text           = "Repair Windows Startup"
@@ -372,11 +365,10 @@ $Button1.height                  = 30
 $Button1.location                = New-Object System.Drawing.Point(4,197)
 $Button1.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
-$Form.controls.AddRange(@($Panel1,$Panel2,$Label3,$Label15,$Panel4,$PictureBox1,$Label1,$Label4,$Panel3,$ResultText,$Label10,$Label11,$urlfixwinstartup,$urlremovevirus,$urlcreateiso))
-$Panel1.controls.AddRange(@($Label7,$Label8,$Label9))
-$Panel2.controls.AddRange(@($essentialtweaks,$backgroundapps,$cortana,$actioncenter,$darkmode,$performancefx,$onedrive,$lightmode,$essentialundo,$EActionCenter,$ECortana,$RBackgroundApps,$HTrayIcons,$EClipboardHistory,$ELocation,$InstallOneDrive,$removebloat,$reinstallbloat,$WarningLabel,$Label5,$appearancefx,$STrayIcons,$EHibernation,$dualboottime))
-$Panel4.controls.AddRange(@($defaultwindowsupdate,$securitywindowsupdate,$Label16,$Label17,$Label18,$Label19))
-$Panel3.controls.AddRange(@($yourphonefix,$Label6,$windowsupdatefix,$ncpa,$oldcontrolpanel,$oldsoundpanel,$Button1))
+$Form.controls.AddRange(@($Panel1,$Panel1,$Label1,$Label7,$Panel3,$PictureBox1,$Label1,$Label2,$Panel2,$ResultText,$Label5,$Label6,$urlfixwinstartup,$urlremovevirus,$urlcreateiso))
+$Panel1.controls.AddRange(@($essentialtweaks,$backgroundapps,$cortana,$actioncenter,$darkmode,$performancefx,$onedrive,$lightmode,$essentialundo,$EActionCenter,$ECortana,$RBackgroundApps,$HTrayIcons,$EClipboardHistory,$ELocation,$InstallOneDrive,$removebloat,$reinstallbloat,$WarningLabel,$Label3,$appearancefx,$STrayIcons,$EHibernation,$dualboottime))
+$Panel3.controls.AddRange(@($defaultwindowsupdate,$securitywindowsupdate,$Label8,$Label9,$Label10,$Label11))
+$Panel2.controls.AddRange(@($yourphonefix,$Label4,$windowsupdatefix,$ncpa,$oldcontrolpanel,$oldsoundpanel,$Button1))
 
 
 $essentialtweaks.Add_Click({
