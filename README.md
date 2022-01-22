@@ -14,9 +14,11 @@ This Debloter can remove unwanted Software and programs from your Windows Device
 
 3> And then click on "Run With Powershell"
 
-4> Then you did. Now you can remove unwanted programs and apps by using this debloter.
+4> Then Press "Y" to say Yes.
 
-5> Then you are good to go.
+5> Then you did. Now you can remove unwanted programs and apps by using this debloter.
+
+6> Then you are good to go.
 
 
 #################################
