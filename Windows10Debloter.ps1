@@ -132,7 +132,7 @@ $securitywindowsupdate.location  = New-Object System.Drawing.Point(24,142)
 $securitywindowsupdate.Font      = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
 
 $Label8                         = New-Object system.Windows.Forms.Label
-$Label8.text                    = "I recommend doing security updates only."
+$Label8.text                    = "I think you should go with security updates only"
 $Label8.AutoSize                = $true
 $Label8.width                   = 25
 $Label8.height                  = 10
@@ -140,7 +140,7 @@ $Label8.location                = New-Object System.Drawing.Point(62,65)
 $Label8.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
 $Label9                         = New-Object system.Windows.Forms.Label
-$Label9.text                    = "- Delays Features updates up to 3 years"
+$Label9.text                    = "It can Delay Feature updates upto 3 years"
 $Label9.AutoSize                = $true
 $Label9.width                   = 25
 $Label9.height                  = 10
@@ -148,7 +148,7 @@ $Label9.location                = New-Object System.Drawing.Point(63,84)
 $Label9.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
 $Label10                         = New-Object system.Windows.Forms.Label
-$Label10.text                    = "- Delays Security updates 4 days"
+$Label10.text                    = "It can Delay Security updates upto 4 days"
 $Label10.AutoSize                = $true
 $Label10.width                   = 25
 $Label10.height                  = 10
@@ -156,7 +156,7 @@ $Label10.location                = New-Object System.Drawing.Point(63,105)
 $Label10.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
 $Label11                         = New-Object system.Windows.Forms.Label
-$Label11.text                    = "- Sets Maximum Active Time"
+$Label11.text                    = "It can Sets Maximum Active Time"
 $Label11.AutoSize                = $true
 $Label11.width                   = 25
 $Label11.height                  = 10
