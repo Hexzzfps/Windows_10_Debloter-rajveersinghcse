@@ -10,13 +10,13 @@ This Debloter can remove unwanted Software and programs from your Windows Device
 
 1> To run this Program You have to download this program.
 
-2> After this You have to right click on "Windows10Debloter.ps1" file.
+2> After this, You have to right-click on the "Windows10Debloter.ps1" file.
 
 3> And then click on "Run With Powershell"
 
-4> Then you almost done. Now you can remove unwanted program and apps by using this debloter.
+4> Then you did. Now you can remove unwanted programs and apps by using this debloter.
 
-5> Then you good to go.
+5> Then you are good to go.
 
 
 #################################
