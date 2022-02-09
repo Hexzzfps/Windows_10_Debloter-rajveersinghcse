@@ -30,9 +30,9 @@ else{
 
 $Form                            = New-Object system.Windows.Forms.Form
 $Form.ClientSize                 = New-Object System.Drawing.Point(1050,1000)
-$Form.text                       = "Free Open Source Deblote"
+$Form.text                       = "Windows 10 Debloter"
 $Form.StartPosition              = "CenterScreen"
-$Form.TopMost                    = $True
+$Form.TopMost                    = $false
 $Form.BackColor                  = [System.Drawing.ColorTranslator]::FromHtml("#e9e9e9")
 $Form.AutoScaleDimensions     = '192, 192'
 $Form.AutoScaleMode           = "Dpi"
